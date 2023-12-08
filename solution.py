@@ -3,8 +3,6 @@ import re
 import timeit
 from typing import Callable, Union
 
-# from numba import jit
-
 
 class AdventOfCodeSolution:
     def __init__(self, day: int):
@@ -33,7 +31,7 @@ class AdventOfCodeSolution:
         start_time = timeit.default_timer()
         day_solution()
         delta = timeit.default_timer() - start_time
-        print(f'\nRan in: {delta}s\n\n')
+        print(f'\nRan in: {delta}s')
 
 
 if __name__ == '__main__':

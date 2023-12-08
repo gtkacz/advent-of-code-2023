@@ -8,7 +8,7 @@ def main():
     os.mkdir(f'./day_{day_to_create}')
     
     open(f'./day_{day_to_create}/__init__.py', 'w').close()
-    open(f'./day_{day_to_create}/input.txt', 'w').close()
+    open(f'./day_{day_to_create}/input.in', 'w').close()
 
     with open(f'./day_{day_to_create}/main.py', 'w') as f:
         f.write('# Path: day_{day_to_create}/main.py\n')
